@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="RockPaperScissors.css">
+</head>
+<body>
+
+     <h2 class="scoreboard" id="playerScore">Your score is 0</h2><!--<h2 class="scoreboard" id="cpuScore">Computer score is 0</h2> -->
+     <h2 id="cpuScore">Computer score is 0</h2>
+    
+
+    <h1 id="RPS" class="greeting">Rock Paper Scissor <br></h1>
+    <h1 id="S" class="greeting">SHOOT</h1>
+    <h2 id="winLose"><br></h2>
+    <h1 id="wonLost"></h1>
+    
+
+<div class="row">
+    <div class="column" id="rockDiv">
+        <h1>Choose Rock</h1>
+       <img class="center" id="Rock"onclick="UserChoice('Rock')" src="rock.png" alt="Rock">
+    </div>
+    <div class="column" id="paperDiv">
+        <h1>Paper</h1>
+        <img class="center" id="Paper" onclick="UserChoice('Paper')" src="paper.png" alt="Paper">
+    </div>
+    <div class="column" id="sciDiv">
+        <h1>Scissors</h1>
+        <img id="Scissors" onclick="UserChoice('Scissors')" src="S.png" alt="Scissors">
+    </div>
+</div>
+
+
+    <script src="RockPaperScissors.js"></script>
+</body>
+</html>

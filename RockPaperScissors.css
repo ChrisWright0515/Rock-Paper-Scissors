@@ -1,0 +1,71 @@
+html{
+    color: white;
+    background-color: purple;
+    align-content: center;
+}
+.greeting{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    
+}
+#RPS{
+    border: solid;
+    border-bottom: 0cm;
+    width: 50%;
+    border-color: black;
+    background-color: black;
+}
+#S{
+    border: solid;
+    border-top: 0cm;
+    width: 50%;
+    border-color: black;
+    background-color: black;
+}
+#playerScore{
+    
+    text-align: left;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    position: absolute;
+    background-color: black;
+}
+#cpuScore{
+    
+    text-align: right;
+    padding: auto;
+    width: 18%;
+    display: block;
+    margin-left: auto;
+    /*margin-top: auto; */
+    background-color: black;
+    position: relative;
+}
+#winLose{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    position: relative;
+}
+#wonLost{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    position: relative;
+    color: yellow;
+}
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    text-align: center;
+    
+}
+
